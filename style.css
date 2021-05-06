@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    background-color: #282726;
+}
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carusel{
+    width: 800px;
+    height: 500px;
+    background-color: #616060;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    background-image: url(./images/9ae13aef283383d738743dd32f86b657.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s;
+}
